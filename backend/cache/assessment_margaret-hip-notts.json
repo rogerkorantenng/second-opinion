@@ -1,0 +1,174 @@
+{
+  "case_id": "margaret-hip-notts",
+  "generated_at": 1791144217.6775362,
+  "live": true,
+  "mapping": {
+    "operation": "total hip replacement",
+    "operation_key": "total hip replacement",
+    "region": "UK",
+    "dataset": "uk_joint_registry",
+    "hospital": "Nottingham City Hospital",
+    "rationale": "The referral is for a total hip replacement, which matches the UK joint registry dataset."
+  },
+  "data": {
+    "key": "uk_joint_registry",
+    "region": "UK",
+    "title": "Hip & knee replacement \u2014 National Joint Registry transparency data, 2025 (East Midlands)",
+    "columns": [
+      {
+        "k": "hospital",
+        "label": "Hospital"
+      },
+      {
+        "k": "procedures_2025",
+        "label": "Procedures 2025",
+        "num": true
+      },
+      {
+        "k": "consultants",
+        "label": "Consultants",
+        "num": true
+      },
+      {
+        "k": "outliers",
+        "label": "Outlier flags"
+      }
+    ],
+    "rows": [
+      {
+        "hospital": "Royal Derby Hospital",
+        "procedures_2025": 2310,
+        "consultants": 32,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Nottingham City Hospital",
+        "procedures_2025": 2132,
+        "consultants": 20,
+        "outliers": "Hip 5-year revision, Total Knee 10-year revision"
+      },
+      {
+        "hospital": "Nottingham Woodthorpe Hospital",
+        "procedures_2025": 1506,
+        "consultants": 7,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Nuffield Health Derby Hospital",
+        "procedures_2025": 1436,
+        "consultants": 18,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Leicester General Hospital",
+        "procedures_2025": 1312,
+        "consultants": 28,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Queens Hospital Burton Upon Trent",
+        "procedures_2025": 1185,
+        "consultants": 17,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Spire Leicester Hospital",
+        "procedures_2025": 1126,
+        "consultants": 20,
+        "outliers": "none"
+      },
+      {
+        "hospital": "King's Mill Hospital",
+        "procedures_2025": 1032,
+        "consultants": 20,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Nuffield Health Leicester Hospital",
+        "procedures_2025": 798,
+        "consultants": 17,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Spire Nottingham Hospital",
+        "procedures_2025": 788,
+        "consultants": 16,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Queens Medical Centre Nottingham University Hospital",
+        "procedures_2025": 561,
+        "consultants": 23,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Leicester Royal Infirmary",
+        "procedures_2025": 483,
+        "consultants": 35,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Newark Hospital",
+        "procedures_2025": 294,
+        "consultants": 14,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Nottingham Treatment Centre",
+        "procedures_2025": 20,
+        "consultants": 1,
+        "outliers": "none"
+      },
+      {
+        "hospital": "Ilkeston Community Hospital",
+        "procedures_2025": 17,
+        "consultants": 2,
+        "outliers": "none"
+      }
+    ],
+    "source": "National Joint Registry Annual Report 2026 transparency data (Open Government Licence).",
+    "caveat": "No hospital in England is an outlier for hip 90-day mortality. The flags here are for revision rates years later, not for dying \u2014 and the flagged unit is one of the busiest. High volume is not the same as safe, and a revision outlier is not a mortality outlier."
+  },
+  "reading": "The table shows how many hip\u2011and\u2011knee replacements each East\u202fMidlands hospital performed in 2025 and how many consultants do the work. Nottingham City Hospital carried out 2\u202f132 procedures with 20 consultants \u2013 a high volume compared with most other sites. It is flagged as an outlier for hip 5\u2011year revision and total\u2011knee 10\u2011year revision, meaning its revision rates are higher than expected for those time\u2011frames. The caveat stresses that no hospital is an outlier for 90\u2011day mortality, and these flags refer only to later revisions, not to death risk. The data cannot tell you whether Nottingham City Hospital is safer or riskier for your specific hip replacement; they only give volume and revision\u2011outlier information. Ask your surgeon about their personal revision rates and what steps they take to minimise complications.",
+  "judgment": {
+    "volume_verdict": "Hospital volume is not the signal for hip replacement mortality \u2014 no unit is a 90-day mortality outlier.",
+    "explanation": "The National Joint Registry 2025 transparency data shows outlier flags only for revision rates years after surgery, not for 90-day mortality. The caveat explicitly states that no hospital in England is an outlier for hip 90-day mortality, and the one flagged unit (Nottingham City Hospital) is among the busiest, demonstrating that high volume does not equal safety for mortality.",
+    "do_not": [
+      "Do not conclude that higher-volume hospitals are safer for survival after hip replacement.",
+      "Do not conclude that a revision outlier flag means a higher risk of dying.",
+      "Do not conclude that any hospital on this list is 'safer' or 'best' based on these volume or flag data."
+    ],
+    "next_step": "Ask your surgeon about your personal risk factors for mortality and about the specific hospital's revision rates, not just its procedure volume.",
+    "volume_weight": "volume-not-the-signal"
+  },
+  "questions": [
+    "How many of these operations have you personally done, and how many in the last year?",
+    "How do your own results \u2014 mortality, serious complications \u2014 compare with other centres?",
+    "Is there a hospital nearby that does more of these, and would you refer me there?"
+  ],
+  "evidence": [],
+  "cases_cited": [
+    {
+      "name": "Johnson ex rel. Adler v. Kokemoor",
+      "citation": "199 Wis. 2d 615, 545 N.W.2d 495",
+      "court": "Supreme Court of Wisconsin",
+      "year": 1996,
+      "why": "A court named the exact three questions this agent helps a patient ask \u2014 and called them material to consent.",
+      "url": "https://www.courtlistener.com/opinion/1691094/johnson-ex-rel-adler-v-kokemoor/"
+    },
+    {
+      "name": "Montgomery v Lanarkshire Health Board",
+      "citation": "[2015] UKSC 11",
+      "court": "UK Supreme Court",
+      "year": 2015,
+      "why": "The UK standard: reasonable alternatives \u2014 which can include a different unit \u2014 are part of what a patient is entitled to weigh.",
+      "url": "https://www.supremecourt.uk/cases/uksc-2013-0136"
+    }
+  ],
+  "models": {
+    "map": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+    "tool": "nvidia/Nemotron-3_5-Lightning",
+    "reading": "nvidia/nemotron-3-super-120b-a12b",
+    "judgment": "nvidia/Nemotron-3-Ultra-550b-a55b"
+  }
+}

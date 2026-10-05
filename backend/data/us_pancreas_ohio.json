@@ -1,0 +1,172 @@
+[
+  {
+    "ccn": "360180",
+    "name": "Cleveland Clinic",
+    "city": "Cleveland",
+    "zip": "44195",
+    "discharges": 56,
+    "drg_cells": [
+      {
+        "drg": "405",
+        "desc": "PANCREAS, LIVER AND SHUNT PROCEDURES WITH MCC",
+        "n": 24
+      },
+      {
+        "drg": "406",
+        "desc": "PANCREAS, LIVER AND SHUNT PROCEDURES WITH CC",
+        "n": 32
+      }
+    ],
+    "psi": {
+      "PSI_04": {
+        "score": 171.75,
+        "compared": "No Different Than the National Rate",
+        "denominator": "527",
+        "lower": 143.33,
+        "higher": 200.18,
+        "footnote": ""
+      },
+      "PSI_90": {
+        "score": 1.51,
+        "compared": "Worse Than the National Value",
+        "denominator": "Not Applicable",
+        "lower": 1.39,
+        "higher": 1.62,
+        "footnote": ""
+      }
+    }
+  },
+  {
+    "ccn": "360006",
+    "name": "Riverside Methodist Hospital",
+    "city": "Columbus",
+    "zip": "43214",
+    "discharges": 52,
+    "drg_cells": [
+      {
+        "drg": "405",
+        "desc": "PANCREAS, LIVER AND SHUNT PROCEDURES WITH MCC",
+        "n": 22
+      },
+      {
+        "drg": "406",
+        "desc": "PANCREAS, LIVER AND SHUNT PROCEDURES WITH CC",
+        "n": 30
+      }
+    ],
+    "psi": {
+      "PSI_04": {
+        "score": 165.19,
+        "compared": "No Different Than the National Rate",
+        "denominator": "324",
+        "lower": 133.6,
+        "higher": 196.78,
+        "footnote": ""
+      },
+      "PSI_90": {
+        "score": 1.11,
+        "compared": "No Different Than the National Value",
+        "denominator": "Not Applicable",
+        "lower": 0.92,
+        "higher": 1.3,
+        "footnote": ""
+      }
+    }
+  },
+  {
+    "ccn": "360137",
+    "name": "Uh Cleveland Medical Center",
+    "city": "Cleveland",
+    "zip": "44106",
+    "discharges": 17,
+    "drg_cells": [
+      {
+        "drg": "406",
+        "desc": "PANCREAS, LIVER AND SHUNT PROCEDURES WITH CC",
+        "n": 17
+      }
+    ],
+    "psi": {
+      "PSI_04": {
+        "score": 163.21,
+        "compared": "No Different Than the National Rate",
+        "denominator": "210",
+        "lower": 125.63,
+        "higher": 200.79,
+        "footnote": ""
+      },
+      "PSI_90": {
+        "score": 0.98,
+        "compared": "No Different Than the National Value",
+        "denominator": "Not Applicable",
+        "lower": 0.77,
+        "higher": 1.19,
+        "footnote": ""
+      }
+    }
+  },
+  {
+    "ccn": "360068",
+    "name": "Toledo Hospital The",
+    "city": "Toledo",
+    "zip": "43606",
+    "discharges": 14,
+    "drg_cells": [
+      {
+        "drg": "405",
+        "desc": "PANCREAS, LIVER AND SHUNT PROCEDURES WITH MCC",
+        "n": 14
+      }
+    ],
+    "psi": {
+      "PSI_04": {
+        "score": 165.44,
+        "compared": "No Different Than the National Rate",
+        "denominator": "251",
+        "lower": 130.82,
+        "higher": 200.07,
+        "footnote": ""
+      },
+      "PSI_90": {
+        "score": 1.23,
+        "compared": "Worse Than the National Value",
+        "denominator": "Not Applicable",
+        "lower": 1.02,
+        "higher": 1.43,
+        "footnote": ""
+      }
+    }
+  },
+  {
+    "ccn": "360003",
+    "name": "University Of Cincinnati Medical Center, Llc",
+    "city": "Cincinnati",
+    "zip": "45219",
+    "discharges": 12,
+    "drg_cells": [
+      {
+        "drg": "406",
+        "desc": "PANCREAS, LIVER AND SHUNT PROCEDURES WITH CC",
+        "n": 12
+      }
+    ],
+    "psi": {
+      "PSI_04": {
+        "score": 197.24,
+        "compared": "No Different Than the National Rate",
+        "denominator": "216",
+        "lower": 156.55,
+        "higher": 237.93,
+        "footnote": ""
+      },
+      "PSI_90": {
+        "score": 0.88,
+        "compared": "No Different Than the National Value",
+        "denominator": "Not Applicable",
+        "lower": 0.63,
+        "higher": 1.12,
+        "footnote": ""
+      }
+    }
+  }
+]

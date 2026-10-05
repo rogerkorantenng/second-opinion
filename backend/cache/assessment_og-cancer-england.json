@@ -1,0 +1,390 @@
+{
+  "case_id": "og-cancer-england",
+  "generated_at": 1791144234.1287549,
+  "live": true,
+  "mapping": {
+    "operation": "oesophagectomy",
+    "operation_key": "esophagectomy",
+    "region": "UK",
+    "dataset": "uk_og_surgery",
+    "hospital": null,
+    "rationale": "The letter recommends an oesophagectomy at a regional specialist centre for potentially curable oesophageal cancer."
+  },
+  "data": {
+    "key": "uk_og_surgery",
+    "region": "UK",
+    "title": "Oesophago-gastric cancer surgery by centre \u2014 NOGCA 2019-22 (England & Wales)",
+    "columns": [
+      {
+        "k": "centre",
+        "label": "Surgical centre"
+      },
+      {
+        "k": "total",
+        "label": "Total cases",
+        "num": true
+      },
+      {
+        "k": "adj_30d_pct",
+        "label": "Adj. 30-day mortality %",
+        "num": true
+      },
+      {
+        "k": "adj_90d_pct",
+        "label": "Adj. 90-day mortality %",
+        "num": true
+      }
+    ],
+    "rows": [
+      {
+        "centre": "Guy\u2019s and St Thomas\u2019 NHS Foundation Trust",
+        "oesophagectomies": 197,
+        "gastrectomies": 95,
+        "total": 292,
+        "adj_30d_pct": 0,
+        "adj_90d_pct": 1.2
+      },
+      {
+        "centre": "Nottingham University Hospitals NHS Trust",
+        "oesophagectomies": 201,
+        "gastrectomies": 79,
+        "total": 280,
+        "adj_30d_pct": 2.1,
+        "adj_90d_pct": 4.0
+      },
+      {
+        "centre": "University Hospitals Birmingham NHS Foundation Trust",
+        "oesophagectomies": 168,
+        "gastrectomies": 108,
+        "total": 276,
+        "adj_30d_pct": 0.4,
+        "adj_90d_pct": 1.6
+      },
+      {
+        "centre": "University Hospitals Plymouth NHS Trust",
+        "oesophagectomies": 222,
+        "gastrectomies": 44,
+        "total": 266,
+        "adj_30d_pct": 0.3,
+        "adj_90d_pct": 1.5
+      },
+      {
+        "centre": "Oxford University Hospitals NHS Foundation Trust",
+        "oesophagectomies": 189,
+        "gastrectomies": 70,
+        "total": 259,
+        "adj_30d_pct": 0.4,
+        "adj_90d_pct": 1.4
+      },
+      {
+        "centre": "The Newcastle Upon Tyne Hospitals NHS Foundation Trust",
+        "oesophagectomies": 163,
+        "gastrectomies": 82,
+        "total": 245,
+        "adj_30d_pct": 1.0,
+        "adj_90d_pct": 2.3
+      },
+      {
+        "centre": "Northern Care Alliance NHS Foundation Trust",
+        "oesophagectomies": 156,
+        "gastrectomies": 83,
+        "total": 239,
+        "adj_30d_pct": 1.8,
+        "adj_90d_pct": 2.5
+      },
+      {
+        "centre": "Sheffield Teaching Hospitals NHS Foundation Trust",
+        "oesophagectomies": 146,
+        "gastrectomies": 67,
+        "total": 213,
+        "adj_30d_pct": 1.4,
+        "adj_90d_pct": 2.7
+      },
+      {
+        "centre": "University Hospitals of North Midlands NHS Trust",
+        "oesophagectomies": 133,
+        "gastrectomies": 59,
+        "total": 192,
+        "adj_30d_pct": 2.2,
+        "adj_90d_pct": 3.3
+      },
+      {
+        "centre": "University College London Hospitals NHS Foundation Trust",
+        "oesophagectomies": 81,
+        "gastrectomies": 109,
+        "total": 190,
+        "adj_30d_pct": 2.4,
+        "adj_90d_pct": 4.2
+      },
+      {
+        "centre": "Imperial College Healthcare NHS Trust",
+        "oesophagectomies": 104,
+        "gastrectomies": 82,
+        "total": 186,
+        "adj_30d_pct": 0,
+        "adj_90d_pct": 3.4
+      },
+      {
+        "centre": "Cambridge University Hospitals NHS Foundation Trust",
+        "oesophagectomies": 121,
+        "gastrectomies": 46,
+        "total": 167,
+        "adj_30d_pct": 0.6,
+        "adj_90d_pct": 1.2
+      },
+      {
+        "centre": "Leeds Teaching Hospitals NHS Trust",
+        "oesophagectomies": 112,
+        "gastrectomies": 50,
+        "total": 162,
+        "adj_30d_pct": 1.9,
+        "adj_90d_pct": 2.5
+      },
+      {
+        "centre": "Lancashire Teaching Hospitals NHS Foundation Trust",
+        "oesophagectomies": 123,
+        "gastrectomies": 36,
+        "total": 159,
+        "adj_30d_pct": 3.5,
+        "adj_90d_pct": 4.2
+      },
+      {
+        "centre": "Portsmouth Hospitals NHS Trust",
+        "oesophagectomies": 117,
+        "gastrectomies": 40,
+        "total": 157,
+        "adj_30d_pct": 2.2,
+        "adj_90d_pct": 3.4
+      },
+      {
+        "centre": "The Royal Marsden NHS Foundation Trust **",
+        "oesophagectomies": 110,
+        "gastrectomies": 44,
+        "total": 154,
+        "adj_30d_pct": 2.5,
+        "adj_90d_pct": 3.3
+      },
+      {
+        "centre": "University Hospital Southampton NHS Foundation Trust",
+        "oesophagectomies": 118,
+        "gastrectomies": 35,
+        "total": 153,
+        "adj_30d_pct": 0,
+        "adj_90d_pct": 1.3
+      },
+      {
+        "centre": "South Tees Hospitals NHS Foundation Trust",
+        "oesophagectomies": 90,
+        "gastrectomies": 63,
+        "total": 153,
+        "adj_30d_pct": 2.1,
+        "adj_90d_pct": 2.7
+      },
+      {
+        "centre": "Gloucestershire Hospitals NHS Foundation Trust",
+        "oesophagectomies": 95,
+        "gastrectomies": 48,
+        "total": 143,
+        "adj_30d_pct": 6.8,
+        "adj_90d_pct": 7.4
+      },
+      {
+        "centre": "Mid and South Essex NHS Foundation Trust",
+        "oesophagectomies": 108,
+        "gastrectomies": 29,
+        "total": 137,
+        "adj_30d_pct": 0.7,
+        "adj_90d_pct": 2.6
+      },
+      {
+        "centre": "Cardiff and Vale University Health Board",
+        "oesophagectomies": 91,
+        "gastrectomies": 45,
+        "total": 136,
+        "adj_30d_pct": 1.8,
+        "adj_90d_pct": 1.8
+      },
+      {
+        "centre": "Norfolk and Norwich University Hospitals NHS Foundation Trust",
+        "oesophagectomies": 83,
+        "gastrectomies": 52,
+        "total": 135,
+        "adj_30d_pct": 0.6,
+        "adj_90d_pct": 2.4
+      },
+      {
+        "centre": "Royal Surrey County Hospital NHS Foundation Trust",
+        "oesophagectomies": 87,
+        "gastrectomies": 41,
+        "total": 128,
+        "adj_30d_pct": 1.7,
+        "adj_90d_pct": 3.1
+      },
+      {
+        "centre": "University Hospitals Bristol and Weston NHS Foundation Trust",
+        "oesophagectomies": 89,
+        "gastrectomies": 31,
+        "total": 120,
+        "adj_30d_pct": 0.7,
+        "adj_90d_pct": 0.9
+      },
+      {
+        "centre": "University Hospitals of Leicester NHS Trust",
+        "oesophagectomies": 80,
+        "gastrectomies": 40,
+        "total": 120,
+        "adj_30d_pct": 4.2,
+        "adj_90d_pct": 6.2
+      },
+      {
+        "centre": "Hull University Teaching Hospitals NHS Trust",
+        "oesophagectomies": 82,
+        "gastrectomies": 35,
+        "total": 117,
+        "adj_30d_pct": 3.2,
+        "adj_90d_pct": 5.2
+      },
+      {
+        "centre": "Bradford Teaching Hospitals NHS Foundation Trust",
+        "oesophagectomies": 69,
+        "gastrectomies": 35,
+        "total": 104,
+        "adj_30d_pct": 2.4,
+        "adj_90d_pct": 5.3
+      },
+      {
+        "centre": "University Hospitals Coventry and Warwickshire NHS Trust",
+        "oesophagectomies": 67,
+        "gastrectomies": 36,
+        "total": 103,
+        "adj_30d_pct": 2.3,
+        "adj_90d_pct": 5.0
+      },
+      {
+        "centre": "University Hospitals Sussex NHS Foundation Trust",
+        "oesophagectomies": 62,
+        "gastrectomies": 21,
+        "total": 83,
+        "adj_30d_pct": 1.0,
+        "adj_90d_pct": 1.1
+      },
+      {
+        "centre": "Betsi Cadwaladr University Health Board",
+        "oesophagectomies": 57,
+        "gastrectomies": 26,
+        "total": 83,
+        "adj_30d_pct": 2.0,
+        "adj_90d_pct": 4.2
+      },
+      {
+        "centre": "Liverpool University Hospitals NHS Foundation Trust",
+        "oesophagectomies": 50,
+        "gastrectomies": 32,
+        "total": 82,
+        "adj_30d_pct": 0,
+        "adj_90d_pct": 2.1
+      },
+      {
+        "centre": "University Hospitals of Derby and Burton NHS Foundation Trust",
+        "oesophagectomies": 68,
+        "gastrectomies": 13,
+        "total": 81,
+        "adj_30d_pct": 1.7,
+        "adj_90d_pct": 4.0
+      },
+      {
+        "centre": "University Hospitals Dorset NHS Foundation Trust",
+        "oesophagectomies": 55,
+        "gastrectomies": 17,
+        "total": 72,
+        "adj_30d_pct": 0,
+        "adj_90d_pct": 2.7
+      },
+      {
+        "centre": "Barking, Havering and Redbridge University Hospitals NHS Trust",
+        "oesophagectomies": 34,
+        "gastrectomies": 20,
+        "total": 54,
+        "adj_30d_pct": 0,
+        "adj_90d_pct": 3.7
+      },
+      {
+        "centre": "Swansea Bay University Health Board",
+        "oesophagectomies": null,
+        "gastrectomies": null,
+        "total": 11,
+        "adj_30d_pct": null,
+        "adj_90d_pct": null
+      }
+    ],
+    "source": "National Oesophago-Gastric Cancer Audit 2023 data tables, 2019-22 (CC BY, HQIP).",
+    "caveat": "The audit's own finding: every centre was within the expected range for 90-day mortality (one was outside for 30-day). The spread you see in the raw percentages is within statistical noise \u2014 so this is not a league table. In a centralised system the question shifts from 'will I die here' to readmission, length of stay, and whether curative surgery is offered at all."
+  },
+  "reading": "The table shows each centre\u2019s adjusted 30\u2011day and 90\u2011day death rates after oesophagectomy, based on the number of operations they performed between 2019\u201122. Most centres report very low 30\u2011day rates (often 0\u202f% or under 1\u202f%), while 90\u2011day rates range from about 0.9\u202f% up to 7.4\u202f%. Because the audit found that every centre\u2019s 90\u2011day mortality lies within the expected range \u2013 the differences you see are likely just random variation \u2013 these percentages cannot tell you which hospital is safer for you. They also do not show other important factors such as readmission, length of stay, or whether curative surgery is routinely offered. When deciding where to have your operation, consider asking your surgical team about their experience, the support services available, and how they handle complications, rather than relying solely on these mortality figures.",
+  "judgment": {
+    "volume_verdict": "Mixed \u2014 US data show lower mortality at higher-volume hospitals but surgeon outcomes vary widely even above volume thresholds, while English centralisation eliminated 90-day mortality outliers so volume is not the signal there.",
+    "explanation": "Kalata 2024 found 30-day mortality of 8.1% at low-volume US hospitals versus 5.5% at hospitals meeting a volume standard (adjusted OR 0.67), yet Cancer 2021 reported 90-day mortality ranging from 3.5% to 9.3% even among surgeons who met that volume bar. Wasif 2020 showed volume thresholds had only 24\u201326% positive predictive value for identifying poor-performing hospitals, and the NOGCA 2026 audit confirmed that after centralisation in England no surgical centre was a 90-day mortality outlier \u2014 though readmission (7\u201329%) and long stays (11\u201340%) still varied.",
+    "do_not": [
+      "Assume that choosing a high-volume hospital guarantees a better outcome for you.",
+      "Treat the adjusted mortality percentages in the NOGCA table as a league table \u2014 the audit states the spread is within statistical noise.",
+      "Conclude that volume alone tells you whether a centre is safe; the English data show mortality outliers disappeared after centralisation, but other quality markers still differ."
+    ],
+    "next_step": "Ask your surgical team for their centre's 90-day mortality, readmission rate, and median length of stay, and request a second-opinion review if your case is borderline for curative surgery.",
+    "volume_weight": "mixed"
+  },
+  "questions": [
+    "How many of these operations have you personally done, and how many in the last year?",
+    "How do your own results \u2014 mortality, serious complications \u2014 compare with other centres?",
+    "Is there a hospital nearby that does more of these, and would you refer me there?"
+  ],
+  "evidence": [
+    {
+      "cite": "Kalata et al., JAMA Surgery 2024;159(2):203-210",
+      "pmid": "38150228",
+      "finding": "30-day mortality was 8.1% at low-volume hospitals versus 5.5% at hospitals meeting the volume standard (adjusted odds ratio 0.67). For 79.8% of operations done at a low-volume hospital, a hospital meeting the standard sat in the same insurance network, a median of 29 miles from the patient's home.",
+      "counter": false
+    },
+    {
+      "cite": "Cancer 2021;127(21):4059-4071",
+      "pmid": "34292582",
+      "finding": "Even among surgeons who met the volume standard, 90-day esophagectomy mortality ranged from 3.5% to 9.3%. Meeting a volume bar is not the same as a good outcome.",
+      "counter": false
+    },
+    {
+      "cite": "Wasif et al., J Am Coll Surg 2020;231(1):45-52",
+      "pmid": "32335321",
+      "finding": "Leapfrog volume thresholds had a positive predictive value of only 24-26% for identifying poor-performing hospitals. Case-volume cut-offs alone do not track actual hospital mortality well.",
+      "counter": true
+    },
+    {
+      "cite": "National Oesophago-Gastric Cancer Audit, State of the Nation 2026 (HQIP)",
+      "pmid": null,
+      "finding": "After England centralised oesophago-gastric cancer surgery, 90-day survival after curative surgery was 96.7% and no surgical centre was a 90-day mortality outlier. But length of stay over 15 days ranged 11%-40% between centres and 30-day readmission ranged 7%-29%; and only 67% of fit stage 1-3 patients started curative treatment. The audit says a second-opinion review 'may be beneficial' in borderline cases.",
+      "counter": false
+    }
+  ],
+  "cases_cited": [
+    {
+      "name": "Johnson ex rel. Adler v. Kokemoor",
+      "citation": "199 Wis. 2d 615, 545 N.W.2d 495",
+      "court": "Supreme Court of Wisconsin",
+      "year": 1996,
+      "why": "A court named the exact three questions this agent helps a patient ask \u2014 and called them material to consent.",
+      "url": "https://www.courtlistener.com/opinion/1691094/johnson-ex-rel-adler-v-kokemoor/"
+    },
+    {
+      "name": "Montgomery v Lanarkshire Health Board",
+      "citation": "[2015] UKSC 11",
+      "court": "UK Supreme Court",
+      "year": 2015,
+      "why": "The UK standard: reasonable alternatives \u2014 which can include a different unit \u2014 are part of what a patient is entitled to weigh.",
+      "url": "https://www.supremecourt.uk/cases/uksc-2013-0136"
+    }
+  ],
+  "models": {
+    "map": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+    "tool": "nvidia/Nemotron-3_5-Lightning",
+    "reading": "nvidia/nemotron-3-super-120b-a12b",
+    "judgment": "nvidia/Nemotron-3-Ultra-550b-a55b"
+  }
+}

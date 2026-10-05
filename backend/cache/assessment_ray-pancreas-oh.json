@@ -1,0 +1,164 @@
+{
+  "case_id": "ray-pancreas-oh",
+  "generated_at": 1791144208.6917005,
+  "live": true,
+  "mapping": {
+    "operation": "pancreaticoduodenectomy (a 'Whipple' operation)",
+    "operation_key": "pancreatic resection",
+    "region": "UK",
+    "dataset": "uk_og_surgery",
+    "hospital": null,
+    "rationale": "The letter recommends a Whipple procedure for a pancreatic tumour at the local hospital."
+  },
+  "data": {
+    "key": "us_volume_safety",
+    "region": "US",
+    "title": "Pancreas & liver operations, Medicare fee-for-service 2024, with CMS safety measures \u2014 Ohio",
+    "columns": [
+      {
+        "k": "hospital",
+        "label": "Hospital"
+      },
+      {
+        "k": "city",
+        "label": "City"
+      },
+      {
+        "k": "volume_2024",
+        "label": "Medicare FFS volume (DRG 405-407)",
+        "num": true
+      },
+      {
+        "k": "psi04_compared",
+        "label": "Failure-to-rescue (PSI-04) vs national"
+      },
+      {
+        "k": "psi90_compared",
+        "label": "Safety composite (PSI-90) vs national"
+      }
+    ],
+    "rows": [
+      {
+        "hospital": "Cleveland Clinic",
+        "city": "Cleveland",
+        "volume_2024": 56,
+        "psi04_compared": "No Different Than the National Rate",
+        "psi90_score": 1.51,
+        "psi90_compared": "Worse Than the National Value"
+      },
+      {
+        "hospital": "Riverside Methodist Hospital",
+        "city": "Columbus",
+        "volume_2024": 52,
+        "psi04_compared": "No Different Than the National Rate",
+        "psi90_score": 1.11,
+        "psi90_compared": "No Different Than the National Value"
+      },
+      {
+        "hospital": "Uh Cleveland Medical Center",
+        "city": "Cleveland",
+        "volume_2024": 17,
+        "psi04_compared": "No Different Than the National Rate",
+        "psi90_score": 0.98,
+        "psi90_compared": "No Different Than the National Value"
+      },
+      {
+        "hospital": "Toledo Hospital The",
+        "city": "Toledo",
+        "volume_2024": 14,
+        "psi04_compared": "No Different Than the National Rate",
+        "psi90_score": 1.23,
+        "psi90_compared": "Worse Than the National Value"
+      },
+      {
+        "hospital": "University Of Cincinnati Medical Center, Llc",
+        "city": "Cincinnati",
+        "volume_2024": 12,
+        "psi04_compared": "No Different Than the National Rate",
+        "psi90_score": 0.88,
+        "psi90_compared": "No Different Than the National Value"
+      }
+    ],
+    "source": "Medicare Inpatient by Provider & DRG 2024; CMS Complications & Deaths \u2014 Hospital, Sep 2026 (both US government, public domain).",
+    "caveat": "Only hospitals with 11 or more Medicare fee-for-service cases appear. A hospital that is absent did fewer than 11 such cases in 2024, or none \u2014 that is 'unknown, ask the surgeon', not proof of low volume. DRG 405-407 also mixes pancreas with liver and shunt procedures, so the count is a proxy. Notice the highest-volume hospital here is the one flagged 'worse than national' on the safety composite: volume and safety can disagree."
+  },
+  "reading": "The table shows five Ohio hospitals that performed at least 11 pancreas\u2011or\u2011liver resections (DRG\u202f405\u2011407) in 2024. Their Medicare\u2011FFS volumes range from 12 cases (University of Cincinnati) up to 56 cases (Cleveland Clinic). For failure\u2011to\u2011rescue (PSI\u201104), all five hospitals report \u201cNo Different Than the National Rate,\u201d meaning their performance on this specific safety measure matches the national average. On the broader safety composite (PSI\u201190), two hospitals\u2014Cleveland Clinic and Toledo Hospital\u2014are marked \u201cWorse Than the National Value,\u201d while the other three are \u201cNo Different Than the National Value.\u201d  \n\nBecause your surgeon\u2019s hospital is not listed, we cannot tell from these data how many Whipple procedures they do each year or how their safety scores compare; absence only means fewer than 11 such cases in 2024, not that the volume is low or high. You should ask your surgeon directly about their annual Whipple volume and their hospital\u2019s safety outcomes for this operation. If you consider traveling, note that higher volume does not guarantee better safety, as shown by Cleveland Clinic\u2019s high volume but worse\u2011than\u2011national safety composite. Discuss these points with your care team to decide what feels right for you.",
+  "judgment": {
+    "volume_verdict": "For pancreatic resection, hospital volume shows the clearest mortality link of the operations studied, but volume is a weak proxy and much of the raw gap reflects bias.",
+    "explanation": "Sheetz 2019 found risk-adjusted mortality of 3.8% at hospitals meeting the volume standard versus 5.7% at those not; Kalata 2024 reported 8.1% versus 5.5% (adjusted OR 0.67) across five operations including pancreatic resection. Wasif 2020 showed volume thresholds identify poor-performing hospitals only 24\u201326% of the time, and Madenci 2022 demonstrated the naive 7.9% vs 5.2% gap shrank to 7.8% vs 7.2% with cleaner comparison. HPB 2018 noted UK centralisation cut 90-day mortality from 10.0% to 4.1%, yet high and very-high volume centres performed similarly once centralised.",
+    "do_not": [
+      "Do not conclude that a higher-volume hospital is automatically safer \u2014 the highest-volume hospital in your list (Cleveland Clinic, 56 cases) is flagged 'Worse Than the National Value' on the safety composite.",
+      "Do not treat the Medicare DRG 405\u2013407 case counts as precise Whipple volumes \u2014 they mix pancreas, liver, and shunt procedures.",
+      "Do not rely on volume thresholds or Leapfrog-style ratings alone to pick a hospital \u2014 they poorly predict actual mortality."
+    ],
+    "next_step": "Ask your surgeon for their hospital's actual 30- and 90-day mortality and failure-to-rescue rates for Whipple procedures, and whether a higher-volume centre in your insurance network (median 29 miles away per Kalata 2024) is a realistic option.",
+    "volume_weight": "high"
+  },
+  "questions": [
+    "How many of these operations have you personally done, and how many in the last year?",
+    "How do your own results \u2014 mortality, serious complications \u2014 compare with other centres?",
+    "Is there a hospital nearby that does more of these, and would you refer me there?"
+  ],
+  "evidence": [
+    {
+      "cite": "Kalata et al., JAMA Surgery 2024;159(2):203-210",
+      "pmid": "38150228",
+      "finding": "30-day mortality was 8.1% at low-volume hospitals versus 5.5% at hospitals meeting the volume standard (adjusted odds ratio 0.67). For 79.8% of operations done at a low-volume hospital, a hospital meeting the standard sat in the same insurance network, a median of 29 miles from the patient's home.",
+      "counter": false
+    },
+    {
+      "cite": "Sheetz et al., JAMA Surgery 2019;154(11):1005-1012",
+      "pmid": "31411663",
+      "finding": "For pancreatic resection, risk-adjusted mortality was 3.8% at hospitals meeting the Leapfrog standard versus 5.7% at those not. There was no significant difference for esophageal, lung or rectal resection.",
+      "counter": false
+    },
+    {
+      "cite": "Sheetz, Dimick, Nathan, J Clin Oncol 2019;37(34):3234-3242",
+      "pmid": "31251691",
+      "finding": "Within hospital systems, pancreatectomy 30-day mortality was 8.9% in the least centralised systems versus 3.7% in the most centralised \u2014 independent of volume. No benefit for colectomy or proctectomy.",
+      "counter": false
+    },
+    {
+      "cite": "Wasif et al., J Am Coll Surg 2020;231(1):45-52",
+      "pmid": "32335321",
+      "finding": "Leapfrog volume thresholds had a positive predictive value of only 24-26% for identifying poor-performing hospitals. Case-volume cut-offs alone do not track actual hospital mortality well.",
+      "counter": true
+    },
+    {
+      "cite": "Madenci et al., JAMA Network Open 2022;5(3):e221766",
+      "pmid": "35267034",
+      "finding": "For pancreatectomy, a naive lower-vs-higher-volume mortality gap of 7.9% vs 5.2% shrank to 7.8% vs 7.2% once the comparison was defined cleanly \u2014 much of the raw volume effect was bias.",
+      "counter": true
+    },
+    {
+      "cite": "HPB 2018;20(11):1012-1020",
+      "pmid": "29895441",
+      "finding": "UK pancreatoduodenectomy 90-day mortality fell from 10.0% (2001-04) to 4.1% (2013-16) after centralisation, with no difference between high and very-high volume centres once centralised.",
+      "counter": false
+    }
+  ],
+  "cases_cited": [
+    {
+      "name": "Johnson ex rel. Adler v. Kokemoor",
+      "citation": "199 Wis. 2d 615, 545 N.W.2d 495",
+      "court": "Supreme Court of Wisconsin",
+      "year": 1996,
+      "why": "A court named the exact three questions this agent helps a patient ask \u2014 and called them material to consent.",
+      "url": "https://www.courtlistener.com/opinion/1691094/johnson-ex-rel-adler-v-kokemoor/"
+    },
+    {
+      "name": "Montgomery v Lanarkshire Health Board",
+      "citation": "[2015] UKSC 11",
+      "court": "UK Supreme Court",
+      "year": 2015,
+      "why": "The UK standard: reasonable alternatives \u2014 which can include a different unit \u2014 are part of what a patient is entitled to weigh.",
+      "url": "https://www.supremecourt.uk/cases/uksc-2013-0136"
+    }
+  ],
+  "models": {
+    "map": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+    "tool": "nvidia/Nemotron-3_5-Lightning",
+    "reading": "nvidia/nemotron-3-super-120b-a12b",
+    "judgment": "nvidia/Nemotron-3-Ultra-550b-a55b"
+  }
+}

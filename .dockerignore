@@ -1,0 +1,5 @@
+backend/second_opinion.db
+backend/__pycache__
+frontend/node_modules
+shots
+.env

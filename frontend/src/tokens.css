@@ -1,0 +1,82 @@
+/* The console's whole palette and its measurements, in one place.
+
+   The shell is a fixed white sidebar, an orange top bar and a light grey ground
+   behind white cards. Orange is the *brand*: the top bar, the active nav item
+   and the primary action. It is never urgency.
+
+   That distinction is the reason the urgency scale below leans yellow at
+   `warn` and red at `crit` — an "approaching" chip in brand orange would be
+   indistinguishable from a button. And `gone` is not a fourth shade of warning:
+   a closed appeal window is the only unrecoverable state in this domain, so it
+   is rendered as a solid near-black maroon block with light text on it.
+
+   The corollary, enforced by hand across styles.css: a brand-orange button
+   never sits inside a warning block. Where the two would have met — the flagged
+   EOB panel, the blocked-denial verdict — the action is a bordered ghost
+   button, or it lives outside the block entirely. */
+
+:root {
+  /* ── brand ─────────────────────────────────────────────────────────── */
+  --brand:#E85D1F;
+  --brand-dark:#C64A12;
+  --brand-soft:#FDF0E8;
+  --brand-line:#F6C9AF;
+  --brand-ink:#FFFFFF;
+
+  /* ── ground and ink ────────────────────────────────────────────────── */
+  --ground:#EFEFEF;
+  --surface:#FFFFFF;
+  --surface-2:#F6F6F6;
+  --line:#E3E3E3;
+  --line-strong:#D3D3D3;
+  --ink:#1C1C1C;
+  --ink-2:#5C5C5C;
+  --ink-3:#8A8A8A;
+
+  /* ── the countdown ─────────────────────────────────────────────────── */
+  --ok:#1F7A4D;      --ok-bg:#EAF6F0;    --ok-line:#BFE2D1;
+  --warn:#B26A00;    --warn-bg:#FFF6E5;  --warn-line:#EFD8A4;
+  --crit:#C0271A;    --crit-bg:#FDECEA;  --crit-line:#F3BFB9;
+  /* Terminal. `--gone` is the block itself; `--gone-bg` tints what surrounds it. */
+  --gone:#4A1213;    --gone-bg:#EDE0E0;  --gone-ink:#F6E6E4;  --gone-line:#6B2523;
+  /* The one clock running against the plan rather than against the claimant.
+     Always a different hue from yours, at every risk level. */
+  --theirs:#1B5FA8;  --theirs-bg:#EAF1F9; --theirs-line:#BCD2EA;
+  /* A window that cannot honestly be assessed is grey, not amber: it is an
+     absence of a figure, not a mild warning. */
+  --unknown:#4B505A; --unknown-bg:#F0F1F3; --unknown-line:#D7DADE;
+
+  /* ── denial classes ────────────────────────────────────────────────── */
+  /* Clinical is the one Recourse hands back. Given a hue that belongs to
+     neither the brand nor the countdown, so it reads as a boundary rather than
+     as either an action or an alarm. */
+  --clinical:#6B3FA0; --clinical-bg:#F3EEFA; --clinical-line:#D9CBEC;
+  --routine:#4A4F57;  --routine-bg:#F1F2F4; --routine-line:#DBDDE1;
+
+  /* ── the status strip and the toast ────────────────────────────────── */
+  --slate:#242B34;
+  --slate-2:#2F3945;
+  --slate-ink:#FFFFFF;
+  --slate-ink-dim:#A7B2BF;
+
+  /* ── shape ─────────────────────────────────────────────────────────── */
+  --r-sm:6px; --r:10px; --r-lg:12px; --r-pill:9999px;
+
+  --sans:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+         Arial, 'Noto Sans', sans-serif;
+  --serif:'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --mono:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+
+  --fs-base:14px; --lh-base:21px;
+
+  /* ── the shell ─────────────────────────────────────────────────────── */
+  --sidebar-w:270px;
+  --topbar-h:68px;
+  --nav-row-h:46px;
+  --card-pad:28px;
+  --page-max:1240px;
+
+  --shadow-card:0 1px 2px rgba(20,20,20,.05), 0 1px 3px rgba(20,20,20,.04);
+  --shadow-lift:0 4px 14px rgba(20,20,20,.08), 0 1px 3px rgba(20,20,20,.05);
+  --shadow-pop:0 14px 40px rgba(20,20,20,.18);
+}

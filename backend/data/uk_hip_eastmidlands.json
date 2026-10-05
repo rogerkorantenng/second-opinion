@@ -1,0 +1,110 @@
+[
+  {
+    "trust": "",
+    "hospital": "Royal Derby Hospital",
+    "procedures": 2310,
+    "consultants": 32,
+    "outliers": []
+  },
+  {
+    "trust": "Nottingham University Hospitals NHS Trust",
+    "hospital": "Nottingham City Hospital",
+    "procedures": 2132,
+    "consultants": 20,
+    "outliers": [
+      "Hip 5-year revision",
+      "Total Knee 10-year revision"
+    ]
+  },
+  {
+    "trust": "",
+    "hospital": "Nottingham Woodthorpe Hospital",
+    "procedures": 1506,
+    "consultants": 7,
+    "outliers": []
+  },
+  {
+    "trust": "",
+    "hospital": "Nuffield Health Derby Hospital",
+    "procedures": 1436,
+    "consultants": 18,
+    "outliers": []
+  },
+  {
+    "trust": "University Hospitals of Leicester NHS Trust",
+    "hospital": "Leicester General Hospital",
+    "procedures": 1312,
+    "consultants": 28,
+    "outliers": []
+  },
+  {
+    "trust": "University Hospitals of Derby and Burton NHS Foundation Trust",
+    "hospital": "Queens Hospital Burton Upon Trent",
+    "procedures": 1185,
+    "consultants": 17,
+    "outliers": []
+  },
+  {
+    "trust": "",
+    "hospital": "Spire Leicester Hospital",
+    "procedures": 1126,
+    "consultants": 20,
+    "outliers": []
+  },
+  {
+    "trust": "Sherwood Forest Hospitals NHS Foundation Trust",
+    "hospital": "King's Mill Hospital",
+    "procedures": 1032,
+    "consultants": 20,
+    "outliers": []
+  },
+  {
+    "trust": "",
+    "hospital": "Nuffield Health Leicester Hospital",
+    "procedures": 798,
+    "consultants": 17,
+    "outliers": []
+  },
+  {
+    "trust": "",
+    "hospital": "Spire Nottingham Hospital",
+    "procedures": 788,
+    "consultants": 16,
+    "outliers": []
+  },
+  {
+    "trust": "",
+    "hospital": "Queens Medical Centre Nottingham University Hospital",
+    "procedures": 561,
+    "consultants": 23,
+    "outliers": []
+  },
+  {
+    "trust": "",
+    "hospital": "Leicester Royal Infirmary",
+    "procedures": 483,
+    "consultants": 35,
+    "outliers": []
+  },
+  {
+    "trust": "",
+    "hospital": "Newark Hospital",
+    "procedures": 294,
+    "consultants": 14,
+    "outliers": []
+  },
+  {
+    "trust": "",
+    "hospital": "Nottingham Treatment Centre",
+    "procedures": 20,
+    "consultants": 1,
+    "outliers": []
+  },
+  {
+    "trust": "Derbyshire Community Health Services NHS Foundation Trust",
+    "hospital": "Ilkeston Community Hospital",
+    "procedures": 17,
+    "consultants": 2,
+    "outliers": []
+  }
+]
